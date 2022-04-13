@@ -1,0 +1,75 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+
+Variables
+Es una forma de guardar datos y asignar valores para poder programar. Las variables tienen un nombre, valores y caracteristicas(segun el tipo de variable)  las cuales nos permiten programar distintas acciones con ellas.
+
+Strings
+significa cadena en ingles. y basicamente es un conjunto de letras que puede tener sentido o no pero que forma parte del mismo "bloque". Se tiene que escribir entre comillas.
+
+Funciones (argumentos, return)
+Una funcion es una parte de un programa que lleva adelante una tarea pequeña. Se puede decir que es una forma de simplificar un problema dividiendolo en pequeñas partes. Se trata de unas lineas de codigo que se escriben de una manera especifica para poder ser usadas o "llamadas".
+Por ejemplo:
+
+function bienvenida(saludo){
+	console.log (`Bienvenida, ${holaNombre}`);
+}
+var holaNombre = 'laura';
+bienvenida(holaNombre);
+
+-funtion: La funcion debe tener la palabra  function, para indicar que se trata de una función.
+
+-bienvenida: es el nombre de la función.
+
+-(saludo): el argumento entre parentesis.
+
+ console.log (`Bienvenida ${holaNombre}`):  entre los corchetes va escrito el codigo que va llevar adelante la tarea.
+ 
+console.log :significa que se muestra por consola lo que está escrito entre los parentesis  la cadena de texto que está entre comillas(``), o sea `bienvenida Laura` (ver ${holaNombre}: )
+
+${holaNombre}: el signo $ y los corchetes marcan donde se "escribr" la variable.
+
+var holaNombre: es la variable, antes de esta se escribe la palapra var para indicar que es una variable.
+
+bienvenida(holaNombre): es el "llamado" a la fincion "bienvenida". Aca se esta escribiendo que ejecutando la función bienvenida se va a usar la variable "holaNombr"
+
+resturn
+
+dentro de la funcion se escribe al numnal de la misma pra pedir que devuelva el resultado o valor de la funcion
+
+ejemplo 
+function promedio(valor1,valor2){ 
+   	var resultado 
+   	resultado = (valor1 + valor2) / 2 
+   	return resultado 
+}
+
+Declaraciones if
+separa el "camino"  del programa en dos: si se cumple una condicion o no. Por un lado está el camino del si(en caso que se cumpla la condicion que pedimos) y el no (en caso que no se cumpla). 
+
+por ejemplo 
+function notaFinal(nota) {
+    if (nota > 7) {
+        return true;
+    } else
+
+    return false;
+}
+
+notaFinal(9); 
+
+aca el nombre de la funcion es "notaFinal"
+
+if (nota>=7): si la nota es mayor a 7.
+return true: devolver el valor verdad( en este caso significa aprobado)
+
+else
+
+    return false: significa, si no es mayor a 7, devolver  false (en este caso significa desapórbado)
+
+Valores booleanos (true, false)
+
+las variables del tipo booleanos, son aquellos que pueden tomar dos valores. o verdadero o falso. y ninguno mas. puede ser verdadero o falso, cero o uno.
+
+
+
